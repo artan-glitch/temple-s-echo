@@ -3,10 +3,11 @@ import { useTranslation } from "react-i18next";
 import { Download } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-const heroImg = "/images/hero.png";
-const azaraImg = "/images/azara.png";
-const heichalImg = "/images/heichal.png";
-const kodeshImg = "/images/kodesh.png";
+const base = import.meta.env.BASE_URL;
+const heroImg = `${base}images/hero.png`;
+const azaraImg = `${base}images/azara.png`;
+const heichalImg = `${base}images/heichal.png`;
+const kodeshImg = `${base}images/kodesh.png`;
 
 const Index = () => {
   const { t } = useTranslation();
@@ -156,10 +157,10 @@ const Index = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
-              { src: "/images/scenes/1a.-szene.png", label: "1a" },
-              { src: "/images/scenes/1b.-szene.png", label: "1b" },
+              { src: `${base}images/scenes/1a.-szene.png`, label: "1a" },
+              { src: `${base}images/scenes/1b.-szene.png`, label: "1b" },
               ...Array.from({ length: 20 }, (_, i) => ({
-                src: `/images/scenes/szene-${i + 2}.png`,
+                src: `${base}images/scenes/szene-${i + 2}.png`,
                 label: `${i + 2}`,
               })),
             ].map((scene) => (
