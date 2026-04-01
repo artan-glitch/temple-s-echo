@@ -56,54 +56,304 @@
   },
   "blog": {
     "backHome": "\u2190 Zur\u00fcck zur Startseite",
-    "label": "Hauptartikel",
-    "title": "Salomons Tempel: Architektur, heilige Gegenst\u00e4nde & die Verheissung des Dritten Tempels",
-    "byline": "Vom Beit-HaMikdasch-Redaktionsteam",
-    "date": "M\u00e4rz 2025",
-    "readTime": "12 Min. Lesezeit",
-    "intro": "Um 950 v. Chr. erbaute K\u00f6nig Salomo auf dem Berg Morija in Jerusalem \u2014 demselben Felsen, auf dem Abraham gepr\u00fcft wurde und wo die Sch\u00f6pfung begonnen haben soll \u2014 den Ersten Tempel. Sieben Jahre Bauzeit, Zedernholz aus dem Libanon und Steine, die im Verborgenen behauen wurden (damit kein Hammer auf dem Tempelberg erklang), schufen eines der heiligsten Bauwerke der antiken Welt.",
-    "sections": {
-      "courtyards": {
-        "title": "Die Vorh\u00f6fe",
-        "imageAlt": "\u00c4usserer Vorhof des Tempels",
-        "content": "Der Tempelkomplex begann mit einem grossen \u00e4usseren Vorhof, zu dem man durch m\u00e4chtige bronzeverkleidete Tore gelangte. Dahinter lag der innere Vorhof (Azara), errichtet aus drei Schichten glattem Stein und einer Schicht Zedernbalken \u2014 die Grenze zwischen dem Volk und den Priestern. Diese architektonische Schichtung war bewusst gew\u00e4hlt: Jede Schwelle f\u00fchrte den Betenden tiefer in die Heiligkeit, weiter weg von der profanen Welt."
-      },
-      "altar": {
-        "title": "Der Altar und das Eherne Meer",
-        "content": "Im Zentrum des inneren Vorhofs stand ein monumentaler Bronzealtar \u2014 etwa 10 m \u00d7 10 m \u00d7 5 m \u2014 auf dem Tag und Nacht ein ewiges Feuer brannte. In der N\u00e4he ruhte das Eherne Meer (Yam shel Nechoschet), ein Becken von 5 Metern Durchmesser mit \u00fcber 60.000 Litern Wasser, getragen von 12 bronzenen Ochsen, die in Dreiergruppen in die vier Himmelsrichtungen blickten. Zehn kunstvolle Bronzebecken auf R\u00e4derwagen dienten der rituellen Reinigung der Opfergaben, bevor sie zum Altar gebracht wurden."
-      },
-      "pillars": {
-        "title": "Die zwei S\u00e4ulen",
-        "content": "Zwei freistehende Bronzes\u00e4ulen, jeweils 12 Meter hoch, flankierten den Eingang zur Vorhalle des Tempels. Die rechte S\u00e4ule hiess Jachin (\u201eEr wird st\u00e4rken\u201c) und die linke Boas (\u201eIn ihm ist St\u00e4rke\u201c). Bemerkenswert ist, dass sie keinerlei tragende Funktion hatten \u2014 sie waren rein symbolisch und verk\u00fcndeten den g\u00f6ttlichen Bund mit der Dynastie Davids und den ewigen Bund mit Israel."
-      },
-      "sanctuary": {
-        "title": "Das Heiligtum (Heichal)",
-        "imageAlt": "Die Goldene Menora des Heiligtums",
-        "content": "Der Hauptsaal \u2014 21 m lang, 10 m breit und 16 m hoch \u2014 war vollst\u00e4ndig mit Zedernholz verkleidet und mit feinstem Gold \u00fcberzogen. Er beherbergte zehn goldene Menorot (Leuchter), obwohl nur die originale Menora des Mosche allabendlich angez\u00fcndet wurde. Zehn goldene Tische trugen die Schaubrote, doch nur der Originaltisch des Mosche trug die 12 Brote (Lechem HaPanim), die der \u00dcberlieferung nach auf wundersame Weise sieben Tage lang frisch blieben. Auf dem Goldenen R\u00e4ucheraltar wurde zweimal t\u00e4glich eine geheime Mischung aus elf Zutaten verbrannt, die nur der Familie Avtinas bekannt war.",
-        "list": [
-          "10 goldene Menorot \u2014 nur die originale Menora des Mosche wurde angez\u00fcndet",
-          "10 goldene Tische \u2014 nur der Tisch des Mosche trug die wundersamen 12 Brote",
-          "Der Goldene R\u00e4ucheraltar \u2014 eine geheime Mischung aus 11 Zutaten, zweimal t\u00e4glich verbrannt"
+    "label": "Dokumentation \u00b7 Geschichte \u00b7 Sakrale Architektur",
+    "title": "Salomons Tempel",
+    "hebrew": "\u05d1\u05b5\u05bc\u05d9\u05ea \u05d4\u05b7\u05de\u05b4\u05bc\u05e7\u05b0\u05d3\u05b8\u05bc\u05e9\u05c1",
+    "subtitle": "20 Szenen durch das heiligste Bauwerk der Antike \u2014 von den Vorh\u00f6fen bis zum Allerheiligsten",
+    "scenes": {
+      "s1": {
+        "num": "Szene 01",
+        "title": "Jerusalem heute / Berg Morija \u2013 Der Ort des Heiligtums",
+        "subtitle": "Even haSchetijah",
+        "source": "Bereschit 22 \u00b7 Divrej haJamim Bet 3:1 \u00b7 Talmud Yoma 54b",
+        "body": [
+          "Der Berg Morija ist der Ort, an dem Abraham seinen Sohn Jitzchak opfern wollte und den Vers 14 als \u201eAdonai jireh\u201c \u2013 \u201eHaSchem wird sehen\u201c \u2013 verewigt. K\u00f6nig Schlomo baute hier das Beit HaMikdasch auf der Tenne Ornans, die K\u00f6nig David zuvor erworben hatte.",
+          "Heute \u00fcberw\u00f6lbt der Felsendom mit seiner goldenen Kuppel den Even haSchetijah \u2013 den Grundstein der Welt. Nach dem Talmud (Yoma 54b) und Midrasch (Bereschit Rabbah 12:9) begann von diesem Stein aus die Sch\u00f6pfung: \u201eVon Zion aus wurde die Welt gegr\u00fcndet.\u201c Der Rambam \u00fcberliefert, dass Adam, Noach, Abraham und David alle genau hier geopfert haben."
         ]
       },
-      "holies": {
-        "title": "Das Allerheiligste (Kodesch HaKodaschim)",
-        "content": "Ein perfekter W\u00fcrfel \u2014 10,5 m \u00d7 10,5 m \u00d7 10,5 m \u2014 ohne Fenster, dessen W\u00e4nde und Boden vollst\u00e4ndig mit Gold bedeckt waren. Zwei Cherubim (Keruvim) aus Olivenholz, jeweils f\u00fcnf Meter hoch, standen darin mit ausgebreiteten Fl\u00fcgeln, die sich \u00fcber die gesamte Breite des Raumes ber\u00fchrten. Sie waren vom Heiligtum durch den Parochet getrennt \u2014 einen Vorhang, gewebt aus 72 F\u00e4den, wobei jeder Faden selbst aus 24 Einzelf\u00e4den gedreht war, was ihn praktisch undurchdringlich machte. Nur der Hohepriester (Kohen Gadol) durfte diesen Raum betreten, und nur einmal im Jahr \u2014 an Jom Kippur, dem Vers\u00f6hnungstag."
+      "s2": {
+        "num": "Szene 02",
+        "title": "Der damalige Salomon Tempel",
+        "subtitle": "Beit HaMikdasch",
+        "source": "Melachim Alef 6:1,38 \u00b7 ca. 950 v. Chr.",
+        "body": [
+          "Im Jahr 2928 nach der Sch\u00f6pfung \u2013 etwa 950 vor der Zeitrechnung \u2013 begann K\u00f6nig Schlomo den Bau des Tempels im vierten Jahr seiner Regierung, im Monat Siw (Ijar). Sieben Jahre dauerte das Werk; tausende Steinmetze, Holzf\u00e4ller und Tr\u00e4ger bereiteten das Material vor \u2013 Zedernholz vom Libanon, Steine aus dem Steinbruch.",
+          "Kein Eisen wurde auf dem Tempelberg verwendet: Die Steine waren bereits im Steinbruch fertig behauen, damit kein Hammerschlag das heilige Schweigen st\u00f6rte. Im elften Regierungsjahr, im Monat Bul (Cheschwan), war das Haus vollendet \u2013 ein Haus des Friedens, errichtet in Stille."
+        ]
       },
-      "ark": {
-        "title": "Die Bundeslade",
-        "imageAlt": "Die Bundeslade",
-        "content": "Im Herzen des Allerheiligsten ruhte die Aron HaBrit \u2014 die Bundeslade \u2014 welche die beiden steinernen Gesetzestafeln enthielt, die Mosche am Sinai empfangen hatte. Auf der Lade ruhte die goldene Abdeckung (Kapporet), von der aus zwei goldene Keruvim mit kindlichen Gesichtern und adler\u00e4hnlichen Fl\u00fcgeln sich in einer Umarmung nach aussen erstreckten. Aus dem Raum zwischen diesen Fl\u00fcgeln, sagen die Weisen, \u201eging das geistliche Leben der Welt aus\u201c \u2014 der Ort, an dem die Stimme des G\u00f6ttlichen zu Mosche sprach.",
-        "quote": "Davon, sagen die Weisen, \u201eging das geistliche Leben der Welt aus.\u201c"
+      "s3": {
+        "num": "Szene 03",
+        "title": "Das erste Tor zum \u00e4usseren Hof",
+        "subtitle": "Schaar haChitzon",
+        "source": "Divrej haJamim Bet 4:9",
+        "body": [
+          "Die \u00e4usserste Umfassungsmauer mit ihren bronzebeschlagenen Zedernholz-Toren bildete den \u00dcbergang vom profanen Jerusalem in den heiligen Tempelbezirk. Sie f\u00fchrte in den \u00e4usseren Hof (Chatzer haChitzon) \u2013 den Bereich, in den das gesamte Volk Israel eintreten durfte.",
+          "Bronze (Nechoschet) verkn\u00fcpfte die Tore bewusst mit dem Brandopferaltar des Mischkans \u2013 eine durchgehende Linie der Heiligkeit von der W\u00fcste bis nach Jerusalem."
+        ],
+        "measurements": [
+          "Mauerh\u00f6he: 20\u201322 Ellen \u2248 10.5\u201311.5 m",
+          "Torh\u00f6he: 20 Ellen \u2248 10.5 m",
+          "Torbreite: 10 Ellen \u2248 5.25 m"
+        ]
       },
-      "destruction": {
-        "title": "Zerst\u00f6rung & verborgene Sch\u00e4tze",
-        "content": "Im Jahr 586 v. Chr. \u2014 dem Jahr 3.338 des hebr\u00e4ischen Kalenders \u2014 durchbrach Nebukadnezars babylonisches Heer die Mauern Jerusalems und zerst\u00f6rte den Tempel am 9. Aw (Tischa beAw), einem Datum, das f\u00fcr immer von nationaler Trauer gepr\u00e4gt sein sollte. Der \u00dcberlieferung nach hatte K\u00f6nig Joschija die Katastrophe vorausgesehen und im Voraus die Bundeslade, die originale Menora und den wundersamen Krug mit Manna verborgen \u2014 versteckt in einem unterirdischen Gang unter dem Tempelberg, wo sie auf die Zeit der endg\u00fcltigen Erl\u00f6sung warten."
+      "s4": {
+        "num": "Szene 04",
+        "title": "Die Mauer des Vorhofs",
+        "subtitle": "Chomat haAzara",
+        "source": "Melachim Alef 6:36 \u00b7 Mischna Middot 2:3",
+        "body": [
+          "K\u00f6nig Schlomo errichtete die innere Umfassungsmauer aus drei Lagen behauener Steine und einer Lage Zedernbalken. Sie trennte den \u00e4usseren Hof des Volkes vom inneren Priesterhof (Azara), wo die Kohanim den t\u00e4glichen Dienst versahen und die Opfer darbrachten.",
+          "Der Talmud (Tamid 30b) \u00fcberliefert, dass der erste Sonnenstrahl des Morgens \u00fcber das Osttor fiel und den Altar erhellte \u2013 das t\u00e4gliche Zeichen f\u00fcr den Beginn des Korban Tamid."
+        ],
+        "measurements": [
+          "Mauerh\u00f6he: 40 Ellen \u2248 21 m",
+          "Drei Tore nach Himmelsrichtungen: Ost (Nikanor-Tor), S\u00fcd, Nord"
+        ]
       },
-      "thirdTemple": {
-        "title": "Der Dritte Tempel",
-        "content": "Der grosse mittelalterliche Gelehrte Maimonides (Rambam) schreibt, dass der Maschiach den Tempel wieder aufbauen und die Zerstreuten Israels aus ihrem Exil sammeln wird. Der Midrasch lehrt etwas noch Mystischeres: dass der Dritte Tempel bereits im Himmel vollendet ist, aus g\u00f6ttlichem Licht geschaffen, und eines Tages auf die Erde herabsteigen wird. Der Prophet Secharja verk\u00fcndet die endg\u00fcltige Vision: \u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c",
-        "quote": "\u201eAn jenem Tag wird der Ewige Einer sein und Sein Name wird Einer sein.\u201c \u2014 Secharja 14:9"
+      "s5": {
+        "num": "Szene 05",
+        "title": "Das zweite Tor zum Priesterhof",
+        "subtitle": "Azara",
+        "source": "Divrej haJamim Bet 4:9 \u00b7 Talmud Erchin 11a",
+        "body": [
+          "Der innere Hof \u2013 die Azara \u2013 war das Herzst\u00fcck des gesamten Tempelkomplexes. Die Kohanim verrichteten hier den t\u00e4glichen Dienst und brachten die Opfer dar. Im Talmud (Erchin 11a) wird der Name Azara vom hebr\u00e4ischen Ezra \u2013 Hilfe \u2013 abgeleitet: Wer diesen Hof betrat, fand geistige Hilfe und L\u00e4uterung.",
+          "Im \u00f6stlichen Teil stand der Brandopferaltar (Mizbach haOlah), neben ihm das Bronzemeer auf zw\u00f6lf Rindern zur rituellen Waschung der Priester."
+        ],
+        "measurements": [
+          "L\u00e4nge: 187 Ellen \u2248 98 m",
+          "Breite: 135 Ellen \u2248 71 m"
+        ]
+      },
+      "s6": {
+        "num": "Szene 06",
+        "title": "Die Gesamtanlage des Tempels",
+        "subtitle": "Beit haMikdash \u2013 Haus der Heiligkeit",
+        "source": "Melachim Alef 6:2\u20133 \u00b7 Divrej haJamim Bet 3:4\u20139",
+        "body": [
+          "Das Hauptgeb\u00e4ude des Tempels war vollst\u00e4ndig mit reinem Gold aus Parwaim ausgekleidet \u2013 W\u00e4nde, Boden und Decke. Eingeschnittene Cherubim, Palmen und ge\u00f6ffnete Bl\u00fcten zierten die Zedernholzw\u00e4nde. Die Gesamtausrichtung verlief von Ost nach West, wie die Tora es f\u00fcr das Mischkan vorschreibt."
+        ],
+        "measurements": [
+          "L\u00e4nge: 60 Ellen \u2248 31.5 m",
+          "Breite: 20 Ellen \u2248 10.5 m",
+          "H\u00f6he: 30 Ellen \u2248 15.75 m",
+          "Vorhalle (Ulam): 120 Ellen hoch \u2248 63 m"
+        ],
+        "quote": "\u201eWie oben, so unten \u2013 ein Haus f\u00fcr den K\u00f6nig in den H\u00f6hen und ein Haus f\u00fcr den K\u00f6nig auf Erden.\u201c",
+        "quoteCite": "Midrasch Tanchuma \u2013 Pekudei 2"
+      },
+      "s7": {
+        "num": "Szene 07",
+        "title": "Der Brandopferaltar",
+        "subtitle": "Mizbach haOlah",
+        "source": "Divrej haJamim Bet 4:1 \u00b7 Wajikra 6:6 \u00b7 Talmud Yoma 21a",
+        "body": [
+          "K\u00f6nig Schlomo vergr\u00f6sserte den Altar des Mischkans und baute ihn dauerhaft aus Stein und Bronze. An den vier Ecken befanden sich goldene H\u00f6rner (Keranot) f\u00fcr die S\u00fchneblutbestreichung. Statt Treppen f\u00fchrte eine 32 Ellen lange Rampe (Kevesch) hinauf \u2013 damit die W\u00fcrde der Priester gewahrt blieb.",
+          "Das ewige Feuer \u2013 Esch Tamid \u2013 brannte ununterbrochen. Der Talmud (Yoma 21a) \u00fcberliefert das Wunder: Der Rauch stieg gerade zum Himmel auf, selbst wenn starker Wind wehte."
+        ],
+        "measurements": [
+          "Grundfl\u00e4che: 20 \u00d7 20 Ellen \u2248 10.5 \u00d7 10.5 m",
+          "H\u00f6he: 10 Ellen \u2248 5.25 m",
+          "Rampe (Kevesch): 32 Ellen \u2248 16.8 m"
+        ]
+      },
+      "s8": {
+        "num": "Szene 08",
+        "title": "Die zehn Waschbecken auf den Bronzewagen",
+        "subtitle": "haKiyorim al haMechonot",
+        "source": "Melachim Alef 7:27\u201330 \u00b7 Divrej haJamim Bet 4:6",
+        "body": [
+          "Chiram von Tyrus, Meister des Bronzegusses, schuf zehn kunstvolle Gestelle (Mechonot) auf R\u00e4dern, deren Seiten mit L\u00f6wen, Ochsen und Cherubim verziert waren. F\u00fcnf standen s\u00fcdlich, f\u00fcnf n\u00f6rdlich des Tempels im Priesterhof. Die Becken dienten zum rituellen Absp\u00fclen der Opferst\u00fccke."
+        ],
+        "measurements": [
+          "Gestell: 4 \u00d7 4 \u00d7 3 Ellen \u2248 2.1 \u00d7 2.1 \u00d7 1.6 m",
+          "Raddurchmesser: 1.5 Ellen \u2248 0.79 m",
+          "Fassungsverm\u00f6gen: 40 Bat \u2248 450\u2013500 Liter je Becken"
+        ]
+      },
+      "s9": {
+        "num": "Szene 09",
+        "title": "Das grosse Bronzemeer",
+        "subtitle": "Jam haNechoschet",
+        "source": "Melachim Alef 7:23\u201326 \u00b7 Divrej haJamim Bet 4:2\u20135",
+        "body": [
+          "Das gewaltige gegossene Bronzebecken ruhte auf zw\u00f6lf Rindern \u2013 je drei nach jeder Himmelsrichtung \u2013 als Symbol der zw\u00f6lf St\u00e4mme Israels, die gemeinsam das Haus HaSchems tragen. Es stand s\u00fcd\u00f6stlich des Tempels und diente ausschliesslich der rituellen Waschung der Kohanim vor dem Dienst."
+        ],
+        "measurements": [
+          "Durchmesser: 10 Ellen \u2248 5.25 m",
+          "H\u00f6he: 5 Ellen \u2248 2.6 m",
+          "Fassungsverm\u00f6gen: 3\u2019000 Bat \u2248 60\u2019000 Liter",
+          "Rinder: 12 St\u00fcck \u2248 je ca. 2.1 m hoch"
+        ]
+      },
+      "s10": {
+        "num": "Szene 10",
+        "title": "Die beiden S\u00e4ulen Jachin und Boaz",
+        "subtitle": "Amudej Jachin u Boaz",
+        "source": "Melachim Alef 7:15\u201322 \u00b7 Radak, Ralbag zu Melachim Alef 7:21",
+        "body": [
+          "Vor dem Eingang des Tempels standen zwei freistehende Bronzes\u00e4ulen \u2013 keine tragenden St\u00fctzen, sondern rein symbolische Schwellen. Die rechte hiess Jachin (\u201eEr wird festigen\u201c), die linke Boaz (\u201eIn ihm ist St\u00e4rke\u201c). Ihre Kapitelle waren mit hundert Granat\u00e4pfeln und Lilienmotiven geschm\u00fcckt \u2013 nach dem Midrasch ein Symbol f\u00fcr die F\u00fclle der Mizwot Israels."
+        ],
+        "measurements": [
+          "S\u00e4ulenh\u00f6he: 18 Ellen \u2248 9.45 m",
+          "Kapitellh\u00f6he: 5 Ellen \u2248 2.63 m",
+          "Gesamth\u00f6he: 23 Ellen \u2248 12.08 m",
+          "Umfang: 12 Ellen \u2248 6.3 m"
+        ]
+      },
+      "s11": {
+        "num": "Szene 11",
+        "title": "Das Tor zur Vorhalle",
+        "subtitle": "Schaar haUlam",
+        "source": "Melachim Alef 6:33 \u00b7 Radak zu Melachim Alef 6:3",
+        "body": [
+          "Die massiven T\u00fcrfl\u00fcgel aus Olivenholz \u2013 dem Holz des Friedens \u2013 f\u00fchrten vom Priesterhof in die goldene Vorhalle. Sie waren vollst\u00e4ndig mit Blattgold \u00fcberzogen, in das kunstvolle Cherubim, Palmen und Bl\u00fcten eingraviert waren. Radak erkl\u00e4rt, dass die gesamte Front des Ulam offenstand \u2013 das Tor war daher \u00fcber zehn Meter hoch und mehr als zehn Meter breit: ein Werk von \u00fcberw\u00e4ltigender Gr\u00f6sse und Sch\u00f6nheit."
+        ]
+      },
+      "s12": {
+        "num": "Szene 12",
+        "title": "Die goldene Vorhalle",
+        "subtitle": "Ulam",
+        "source": "Melachim Alef 6:3 \u00b7 Divrej haJamim Bet 3:4",
+        "body": [
+          "Der Ulam war der \u00dcbergangsraum zwischen Priesterhof und innerem Heiligtum. W\u00e4nde, Boden und Decke waren vollst\u00e4ndig mit reinem Gold \u00fcberzogen und mit Cherubim, Palmen und offenen Bl\u00fcten geschm\u00fcckt. Wenn die Morgensonne einfiel, reflektierte sich das Licht in alle Richtungen \u2013 der Tempel begann zu leuchten wie ein lebendiges Wesen.",
+          "Der Ulam war kein Ort des Opfers, sondern der inneren Sammlung. Hier bereitete sich der Kohen Gadol auf seinen Eintritt in das Heiligtum vor."
+        ],
+        "measurements": [
+          "L\u00e4nge: 20 Ellen \u2248 10.5 m",
+          "Tiefe: 10 Ellen \u2248 5.25 m",
+          "H\u00f6he: 120 Ellen \u2248 63 m"
+        ]
+      },
+      "s13": {
+        "num": "Szene 13",
+        "title": "Das Heiligtum",
+        "subtitle": "Heichal",
+        "source": "Melachim Alef 6:2,17 \u00b7 Divrej haJamim Bet 3:5\u20137",
+        "body": [
+          "Im Heichal standen die heiligen Ger\u00e4te des t\u00e4glichen Dienstes: zehn goldene Leuchter (Menorot), zehn Schaubrottische (Schulchanot Lechem haPanim) und der goldene R\u00e4ucheraltar (Mizbach haKetoret). Die Zedernholzw\u00e4nde waren vollst\u00e4ndig mit Gold aus Parwaim ausgekleidet, mit Cherubim, Palmen und Bl\u00fcten verziert \u2013 und der Boden ebenfalls mit Gold belegt."
+        ],
+        "measurements": [
+          "L\u00e4nge: 40 Ellen \u2248 20.8 m",
+          "Breite: 20 Ellen \u2248 10.5 m",
+          "H\u00f6he: 30 Ellen \u2248 15.75 m"
+        ],
+        "quote": "Die Fenster waren \u201eschmal nach innen, weit nach aussen\u201c \u2013 das Licht Israels sollte die Welt erhellen, nicht sich selbst.",
+        "quoteCite": "Midrasch zu Melachim Alef 6:4"
+      },
+      "s14": {
+        "num": "Szene 14",
+        "title": "Die goldenen Leuchter",
+        "subtitle": "Menorot",
+        "source": "Melachim Alef 7:49 \u00b7 Talmud Menachot 98b \u00b7 Rambam Hilchot Beit haBechira 3:7",
+        "body": [
+          "K\u00f6nig Schlomo liess zehn goldene Leuchter anfertigen \u2013 f\u00fcnf rechts, f\u00fcnf links. In ihrer Mitte stand die urspr\u00fcngliche Menora Mosches aus dem Mischkan. Elf Menorot leuchteten im Heichal; doch nur die Menora Mosches brannte ununterbrochen. Jede Flamme entz\u00fcndete sich am reinsten Oliven\u00f6l \u2013 Schemen Zait Zach \u2013 und brannte ruhig, klar, ohne Rauch.",
+          "Die westliche Flamme der Menora Mosches brannte auf besondere Weise l\u00e4nger als alle anderen \u2013 ein Zeichen, dass die Schechina in Israel ruhte (Talmud Menachot 86b). Das Licht der Menora spiegelte sich in den goldenen W\u00e4nden und erf\u00fcllte den Raum mit warmem, lebendigem Schein."
+        ],
+        "measurements": [
+          "H\u00f6he je Menora: ca. 3.5 Ellen \u2248 1.8 m",
+          "Arme: 7 je Leuchter",
+          "Material: aus einem St\u00fcck Gold (Mikschah Achat)"
+        ]
+      },
+      "s15": {
+        "num": "Szene 15",
+        "title": "Die Schaubrottische",
+        "subtitle": "Schulchanot Lechem haPanim",
+        "source": "Divrej haJamim Bet 4:8 \u00b7 Talmud Menachot 98b \u00b7 Wajikra 24:5\u20138",
+        "body": [
+          "K\u00f6nig Schlomo liess zehn goldene Tische anfertigen \u2013 f\u00fcnf rechts und f\u00fcnf links. In ihrer Mitte stand der Tisch Mosches aus dem Mischkan, auf dem allein das Lechem haPanim aufgelegt wurde. Die zw\u00f6lf Brote lagen in zwei Reihen zu je sechs und wurden jeden Schabbat frisch erneuert.",
+          "Der Tisch stand im Norden, die Menora im S\u00fcden \u2013 eine symbolische Gegen\u00fcberstellung von materiellem Segen (Tisch) und geistigem Licht (Menora), die die Weisen als Abbild der g\u00f6ttlichen Ordnung beschreiben."
+        ],
+        "quote": "\u201eAls man die Brote nach sieben Tagen abnahm, waren sie ebenso frisch wie beim Auflegen.\u201c",
+        "quoteCite": "Talmud \u2013 Menachot 96b"
+      },
+      "s16": {
+        "num": "Szene 16",
+        "title": "Der goldene R\u00e4ucheraltar",
+        "subtitle": "Mizbach haKetoret",
+        "source": "Schemot 30:1\u201310 \u00b7 Melachim Alef 7:48 \u00b7 Talmud Keritot 6a",
+        "body": [
+          "Der goldene R\u00e4ucheraltar stand in der Mitte des Heichal, direkt vor dem Allerheiligsten. Aus Akazienholz gefertigt und mit reinem Gold \u00fcberzogen, trug er goldene H\u00f6rner an den vier Ecken und eine goldene Zierleiste (Zer Zahav). Zweimal t\u00e4glich verbrannte der Priester das heilige R\u00e4ucherwerk (Ketoret) \u2013 morgens und abends.",
+          "Das Ketoret bestand aus elf Zutaten, deren genaue Mischung nur die Familie Avtinas kannte. Der Rauch stieg in gerader S\u00e4ule ohne sich zu neigen zum Himmel auf \u2013 und der Midrasch fasst zusammen: \u201eDas Ketoret vers\u00f6hnt Himmel und Erde; sein Rauch tr\u00e4gt die Gebete Israels nach oben.\u201c"
+        ],
+        "measurements": [
+          "L\u00e4nge und Breite: 1 \u00d7 1 Elle \u2248 0.52 \u00d7 0.52 m",
+          "H\u00f6he: 2 Ellen \u2248 1.05 m"
+        ]
+      },
+      "s17": {
+        "num": "Szene 17",
+        "title": "Die goldene T\u00fcr zum Allerheiligsten",
+        "subtitle": "Schaar Kodesh haKodaschim",
+        "source": "Melachim Alef 6:31\u201332 \u00b7 Wajikra 16",
+        "body": [
+          "Die T\u00fcrfl\u00fcgel aus Olivenholz \u2013 Etz Sajit, dem Holz des Friedens \u2013 f\u00fchrten vom goldenen Heichal direkt in das Allerheiligste. Vollst\u00e4ndig mit reinem Gold \u00fcberzogen, trugen sie eingravierte Cherubim, Palmen und offene Bl\u00fcten, die sich im Licht der Menorot spiegelten. Im Halbdunkel des Heichal gl\u00fchte das Gold wie ein Vorzeichen der g\u00f6ttlichen Gegenwart dahinter.",
+          "Hinter diesen T\u00fcren hing die Parochet \u2013 der heilige Vorhang. Nur der Kohen Gadol durfte sie einmal im Jahr, am Jom Kippur, durchschreiten: leise, barfuss und allein, mit gesenktem Haupt in Ehrfurcht vor der Schechina."
+        ]
+      },
+      "s18": {
+        "num": "Szene 18",
+        "title": "Der heilige Vorhang",
+        "subtitle": "Parochet",
+        "source": "Divrej haJamim Bet 3:14 \u00b7 Schemot 26:31\u201333 \u00b7 Talmud Chagiga 13b",
+        "body": [
+          "Die Parochet trennte den Heichal vom Kodesh haKodaschim. Sie war aus vier heiligen Farben gewoben: Techelet (Himmelblau \u2013 g\u00f6ttliche Gegenwart), Argaman (Purpur \u2013 k\u00f6nigliche W\u00fcrde), Tola\u2019at Schani (Karmesinrot \u2013 L\u00e4uterung) und weisses Leinen (Reinheit). Jeder der 72 Str\u00e4nge bestand aus 24 Einzelf\u00e4den \u2013 so dicht, dass kein Licht hindurchdrang.",
+          "Auf ihrer Oberfl\u00e4che waren Cherubim eingewoben. Wenn die Menorot auf sie schienen, flimmerte die Parochet im Glanz des Goldes \u2013 als w\u00e4re sie von innen lebendig."
+        ],
+        "measurements": [
+          "H\u00f6he: 20 Ellen \u2248 10.5 m",
+          "Breite: 10 Ellen \u2248 5.25 m"
+        ]
+      },
+      "s19": {
+        "num": "Szene 19",
+        "title": "Das Allerheiligste",
+        "subtitle": "Kodesh haKodaschim",
+        "source": "Melachim Alef 6:16\u201320 \u00b7 Divrej haJamim Bet 3:8\u201310 \u00b7 Talmud Yoma 21b",
+        "body": [
+          "Das Allerheiligste war ein perfekter goldener W\u00fcrfel \u2013 vollkommen symmetrisch in allen drei Dimensionen. Kein Fenster, kein irdisches Licht. Nur das Or haSchechina \u2013 das Licht der g\u00f6ttlichen Gegenwart \u2013 erf\u00fcllte diesen Raum. W\u00e4nde, Boden und selbst die N\u00e4gel bestanden aus Gold.",
+          "Inmitten des Raumes standen zwei goldene Cherubim \u2013 f\u00fcnf Meter hoch \u2013, deren Fl\u00fcgel sich \u00fcber die gesamte Breite des Raumes ausbreiteten: je zehn Ellen, bis sie sich in der Mitte ber\u00fchrten. Zwischen diesen Fl\u00fcgeln offenbarte sich die Schechina \u00fcber der Bundeslade.",
+          "Unter der Lade ruhte der Even haSchetijah. Der Standort des Allerheiligsten war nicht nur der Mittelpunkt des Tempels, sondern der Ausgangspunkt der Sch\u00f6pfung und der zentrale Ort, an dem die Gegenwart HaSchems auf der Erde ruhte."
+        ],
+        "measurements": [
+          "L\u00e4nge: 20 Ellen \u2248 10.5 m",
+          "Breite: 20 Ellen \u2248 10.5 m",
+          "H\u00f6he: 20 Ellen \u2248 10.5 m",
+          "Vergoldung: 600 Talente reines Gold",
+          "N\u00e4gel: je 50 Schekel Gold"
+        ],
+        "quote": "\u201eDie Lade nahm keinen Raum ein. Obwohl sie im Allerheiligsten stand, verringerte sie nicht dessen Masse.\u201c",
+        "quoteCite": "Talmud \u2013 Yoma 21b"
+      },
+      "s20": {
+        "num": "Szene 20",
+        "title": "Die beiden grossen goldenen Engel",
+        "subtitle": "Cherubim",
+        "source": "Melachim Alef 6:23\u201328 \u00b7 Divrej haJamim Bet 3:10\u201313 \u00b7 Talmud Bava Batra 99a",
+        "body": [
+          "Im Allerheiligsten standen zwei gewaltige Cherubim aus Olivenholz, vollst\u00e4ndig mit Gold \u00fcberzogen \u2013 f\u00fcnf Meter hoch. Jeder Fl\u00fcgel spannte sich f\u00fcnf Ellen weit. Zusammen \u00fcberdeckten ihre Fl\u00fcgel die gesamte Breite des Raumes: von Wand zu Wand, l\u00fcckenlos, zwanzig Ellen. Ihre Gesichter waren einander zugewandt und dem Ort der Bundeslade zugerichtet.",
+          "Die Weisen beschreiben, dass die Cherubim Gesichter wie Kinder hatten \u2013 panim shel tinok \u2013 ein Bild reiner Liebe und N\u00e4he zwischen HaSchem und Israel. Zwischen ihren Fl\u00fcgeln offenbarte sich die Schechina \u2013 und zwischen ihnen sprach HaSchem zu Mosche: \u201eVon dort werde ich mit dir reden, von zwischen den beiden Cherubim.\u201c"
+        ],
+        "measurements": [
+          "H\u00f6he: 10 Ellen \u2248 5.25 m",
+          "Fl\u00fcgell\u00e4nge je Seite: 5 Ellen \u2248 2.6 m",
+          "Gesamtfl\u00fcgelspannweite: 20 Ellen \u2248 10.5 m \u2013 Wand zu Wand"
+        ],
+        "quote": "\u201eWenn Israel den Willen G\u2019ttes tat, wandten sie sich einander zu; wenn nicht, wandten sie sich ab.\u201c",
+        "quoteCite": "Talmud \u2013 Bava Batra 99a"
+      },
+      "s21": {
+        "num": "Szene 21",
+        "title": "Die Zerst\u00f6rung \u2014 Churban Beit haMikdash",
+        "subtitle": "Tischa beAw \u00b7 Der 9. Aw \u2014 ewiger Gedenktag Israels",
+        "source": "Melachim Bet 25:8\u20139 \u00b7 Jecheskel 11:23 \u00b7 Talmud Yoma 53b \u00b7 Rambam Hilchot Melachim 11:1",
+        "body": [
+          "Jerusalem fiel in die H\u00e4nde Babylons. Nebusaradan, der Oberste der Leibwache Nebukadnezars, kam im f\u00fcnften Monat \u2014 dem Monat Aw. Am 7. Aw begann das Feuer zu brennen, am 9. Aw stand der Tempel in Flammen. Feuer verschlang den Beit haMikdash, Gold schmolz an den W\u00e4nden, der Gesang der Leviten verstummte. Der Wind trug den Rauch \u00fcber die H\u00fcgel Zions \u2014 und der Tempel, das Herz der Welt, lag in Asche.",
+          "Doch bevor das Feuer den heiligsten Ort erreichte, war die Bundeslade bereits verborgen. K\u00f6nig Joschijahu liess sie in Kammern unter dem Tempelberg einschliessen \u2014 nicht zerst\u00f6rt, sondern aufbewahrt, bis der Dritte Tempel errichtet wird.",
+          "Der Prophet Jecheskel sah, wie die Schechina den Tempel schrittweise verliess und auf dem \u00d6lberg verweilte \u2014 nicht um Israel zu verlassen, sondern um es ins Exil zu begleiten. Die Cherubim standen noch immer einander zugewandt: das letzte Zeichen g\u00f6ttlicher Liebe."
+        ],
+        "quote": "\u00abSteh auf, werde Licht, denn dein Licht kommt, und die Herrlichkeit des Ewigen erstrahlt \u00fcber dir.\u00bb",
+        "quoteCite": "Jeschajahu 60:1"
       }
     },
     "closing": "Der Tempel wurde zerst\u00f6rt, doch seine Erinnerung wurde nie ausgel\u00f6scht. Jedes Jahr wenden sich Juden auf der ganzen Welt nach Jerusalem und fl\u00fcstern dieselbe uralte Hoffnung:",
