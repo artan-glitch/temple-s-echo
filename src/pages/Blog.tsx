@@ -97,7 +97,7 @@ const Blog = () => {
 
                 {/* Source tag */}
                 <div className="mb-4">
-                  <span className="inline-block font-ui text-[10px] tracking-[0.16em] text-temple-gold/50 bg-temple-gold/5 border border-temple-gold/15 rounded-sm px-2 py-0.5 uppercase">
+                  <span className="inline-block font-ui text-xs font-semibold tracking-[0.12em] text-temple-gold bg-temple-gold/10 border border-temple-gold/30 rounded-sm px-3 py-1 uppercase">
                     {t(`${s}.source`)}
                   </span>
                 </div>
