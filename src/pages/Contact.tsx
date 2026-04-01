@@ -36,19 +36,13 @@ const Contact = () => {
             </div>
           ) : (
             <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              onSubmit={() => setSubmitted(true)}
               className="space-y-6"
-              onSubmit={(e) => {
-                e.preventDefault();
-                const form = e.target as HTMLFormElement;
-                const name = (form.elements.namedItem("name") as HTMLInputElement).value;
-                const email = (form.elements.namedItem("email") as HTMLInputElement).value;
-                const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
-                const subject = encodeURIComponent(`Contact from ${name}`);
-                const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
-                window.location.href = `mailto:artan@mikgroup.ch?subject=${subject}&body=${body}`;
-                setSubmitted(true);
-              }}
             >
+              <input type="hidden" name="access_key" value="7f7b1704-6022-45df-b3ed-9e0d5036106d" />
+              <input type="hidden" name="subject" value="New contact from Beit HaMikdash website" />
               <div>
                 <label className="block font-ui text-xs uppercase tracking-widest text-muted-foreground mb-2">
                   {t("contact.name")}
