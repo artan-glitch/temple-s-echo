@@ -146,43 +146,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ── 21 SCENES GALLERY ── */}
-      <section className="py-24 bg-temple-midnight">
-        <div className="container px-4">
-          <div className="text-center mb-14">
-            <p className="font-ui text-temple-gold uppercase tracking-[0.3em] text-xs mb-3">{t("scenes.label")}</p>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-temple-on-dark">{t("scenes.title")}</h2>
-            <div className="gold-divider w-16 mx-auto mt-4" />
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[
-              { src: `${base}images/scenes/1a.-szene.jpg`, label: "1a" },
-              { src: `${base}images/scenes/1b.-szene.jpg`, label: "1b" },
-              ...Array.from({ length: 20 }, (_, i) => ({
-                src: `${base}images/scenes/szene-${i + 2}.jpg`,
-                label: `${i + 2}`,
-              })),
-            ].map((scene) => (
-              <div
-                key={scene.label}
-                className="group relative aspect-video overflow-hidden rounded border border-temple-gold/20 hover:border-temple-gold/60 transition-colors cursor-pointer"
-              >
-                <img
-                  src={scene.src}
-                  alt={`${t("scenes.sceneLabel")} ${scene.label}`}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-temple-midnight/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                <span className="absolute bottom-2 left-3 text-temple-gold font-ui text-xs uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
-                  {t("scenes.sceneLabel")} {scene.label}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── PDF DOWNLOAD ── */}
       <section className="bg-parchment py-20 border-y border-temple-gold/15">
         <div className="container max-w-2xl text-center px-4">
