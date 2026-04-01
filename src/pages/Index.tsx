@@ -146,39 +146,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ── PDF DOWNLOAD ── */}
-      <section className="bg-parchment py-20 border-y border-temple-gold/15">
-        <div className="container max-w-2xl text-center px-4">
-          <p className="font-ui text-temple-gold uppercase tracking-[0.3em] text-xs mb-3">{t("download.label")}</p>
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-temple-midnight mb-4">
-            {t("download.title")}
-          </h2>
-          <p className="font-body text-foreground/80 leading-relaxed mb-10">
-            {t("download.text")}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/temple-s-echo/Solomon_Temple_EN.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity"
-            >
-              <Download size={16} />
-              {t("download.english")}
-            </a>
-            <a
-              href="/temple-s-echo/Salomon_Tempel_DE.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-temple-gold/50 text-temple-midnight font-ui font-medium uppercase tracking-widest text-sm rounded hover:border-temple-gold transition-colors"
-            >
-              <Download size={16} />
-              {t("download.german")}
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* ── QUOTE BANNER ── */}
       <section className="bg-temple-midnight py-20">
         <div className="container max-w-3xl text-center px-4">
