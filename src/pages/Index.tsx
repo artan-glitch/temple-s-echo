@@ -80,6 +80,17 @@ const Index = () => {
           <p className="text-center text-temple-on-dark/50 font-ui text-sm mt-4">
             {t("video.caption")}
           </p>
+          <div className="flex justify-center mt-6">
+            <a
+              href="https://www.youtube.com/watch?v=8DG-mlRiCqs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 border border-temple-gold/40 text-temple-gold font-ui text-sm uppercase tracking-widest rounded hover:bg-temple-gold/10 transition-colors"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M7 10v4h3l4 4V6l-4 4H7z" /><path d="M20.84 2.18l-1.42 1.42A9.97 9.97 0 0122 12a9.97 9.97 0 01-2.58 8.4l1.42 1.42" /><path d="M17.41 5.59l-1.42 1.42A5.98 5.98 0 0118 12a5.98 5.98 0 01-2.01 5l1.42 1.41" /></svg>
+              {t("video.likeOnYoutube")}
+            </a>
+          </div>
         </div>
       </section>
 
