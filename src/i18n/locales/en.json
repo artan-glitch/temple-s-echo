@@ -393,24 +393,25 @@
   },
   "impressum": {
     "title": "Legal Notice",
+    "companyLabel": "Company name and",
     "company": "Becker Innovation",
-    "address": "Musterstrasse 1",
-    "city": "8000 Z\u00fcrich",
+    "address": "Mutschellenstrasse 163",
+    "city": "8038 Z\u00fcrich",
     "country": "Switzerland",
-    "phone": "+41 00 000 00 00",
-    "email": "info@beckerinnovation.ch",
+    "phone": "+41 79 216 21 60",
+    "email": "becker@beckerinnovation.ch",
     "website": "www.beckerinnovation.ch",
     "liability": {
       "title": "Liability Disclaimer",
-      "text": "The author assumes no liability for the accuracy, correctness, timeliness, reliability, or completeness of the information provided. Claims for damages of a material or immaterial nature arising from access to or use or non-use of the published information are excluded."
+      "text": "Becker Innovation assumes no guarantee for the correctness, completeness, or timeliness of the information contained on the website. The content of the website may be changed at any time and without prior notice; the content of the website does not constitute an offer. The company shall in no case be liable for either direct or indirect loss or consequential damages arising from the use of this website or from links to third-party advertisements contained on the company's website."
     },
     "copyright": {
       "title": "Copyright",
-      "text": "The content and works published on this website are subject to copyright law. Any use not permitted under copyright law requires the prior written consent of the author."
+      "text": "All information contained on the Becker Innovation website is protected by copyright. Its use without prior written consent from Becker Innovation is prohibited."
     },
     "email_comm": {
       "title": "Email Communication",
-      "text": "Please note that emails are transmitted unencrypted. Do not send confidential or sensitive information via email, as it may potentially be intercepted by third parties."
+      "text": "Email communication with Becker Innovation takes place unencrypted. It therefore cannot be excluded that data sent or contact with the company may be viewed or traced by third parties. We therefore ask you to refrain from transmitting sensitive, non-public, and confidential data to the company via email."
     }
   },
   "footer": {

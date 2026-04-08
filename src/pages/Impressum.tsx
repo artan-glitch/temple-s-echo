@@ -17,13 +17,13 @@ const Impressum = () => {
 
           {/* Company Info */}
           <div className="mb-10 font-body text-foreground/80 leading-relaxed">
-            <p className="font-semibold text-temple-midnight">{t("impressum.company")}</p>
+            <p>{t("impressum.companyLabel")} <span className="font-semibold text-temple-midnight">{t("impressum.company")}</span></p>
             <p>{t("impressum.address")}</p>
             <p>{t("impressum.city")}</p>
             <p>{t("impressum.country")}</p>
-            <p className="mt-3">{t("impressum.phone")}</p>
-            <p>{t("impressum.email")}</p>
-            <p>{t("impressum.website")}</p>
+            <p className="mt-3">Tel <a href={`tel:${t("impressum.phone").replace(/\s/g, "")}`} className="hover:text-temple-gold transition-colors">{t("impressum.phone")}</a></p>
+            <p><a href={`mailto:${t("impressum.email")}`} className="hover:text-temple-gold transition-colors">{t("impressum.email")}</a></p>
+            <p><a href={`https://${t("impressum.website")}`} target="_blank" rel="noopener noreferrer" className="hover:text-temple-gold transition-colors">{t("impressum.website")}</a></p>
           </div>
 
           <div className="gold-divider w-16 mb-10" />

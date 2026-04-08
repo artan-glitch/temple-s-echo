@@ -389,24 +389,25 @@
   },
   "impressum": {
     "title": "Impressum",
+    "companyLabel": "Name der Unternehmung und",
     "company": "Becker Innovation",
-    "address": "Musterstrasse 1",
-    "city": "8000 Z\u00fcrich",
+    "address": "Mutschellenstrasse 163",
+    "city": "8038 Z\u00fcrich",
     "country": "Schweiz",
-    "phone": "+41 00 000 00 00",
-    "email": "info@beckerinnovation.ch",
+    "phone": "+41 79 216 21 60",
+    "email": "becker@beckerinnovation.ch",
     "website": "www.beckerinnovation.ch",
     "liability": {
       "title": "Haftungsausschluss",
-      "text": "Der Autor \u00fcbernimmt keinerlei Gew\u00e4hr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualit\u00e4t, Zuverl\u00e4ssigkeit und Vollst\u00e4ndigkeit der Informationen. Haftungsanspr\u00fcche gegen den Autor wegen Sch\u00e4den materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der ver\u00f6ffentlichten Informationen entstanden sind, werden ausgeschlossen."
+      "text": "Die Becker Innovation \u00fcbernimmt keine Gew\u00e4hr f\u00fcr die Korrektheit, Vollst\u00e4ndigkeit und Aktualit\u00e4t der auf der Webseite enthaltenen Informationen. Der Inhalt der Webseite kann jederzeit und ohne Vorank\u00fcndigung ge\u00e4ndert werden; der Inhalt der Webseite stellt kein Angebot dar. Die Unternehmung haftet in keinem Fall weder f\u00fcr direkten noch indirekten Verlust oder f\u00fcr Folgesch\u00e4den, die aus dem Gebrauch dieser Webseite oder aus Verkn\u00fcpfungen mit Werbeauftritten Dritter, die auf der Webseite der Unternehmung enthalten sind, entstehen k\u00f6nnten."
     },
     "copyright": {
       "title": "Urheberrecht",
-      "text": "Die auf dieser Webseite ver\u00f6ffentlichten Inhalte und Werke unterliegen dem Urheberrecht. Jede vom Urheberrecht nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Autors."
+      "text": "Alle auf der Webseite der Becker Innovation enthaltenen Informationen sind urheberrechtlich gesch\u00fctzt. Deren Verwendung ist ohne vorherige schriftliche Zustimmung von der Becker Innovation untersagt."
     },
     "email_comm": {
       "title": "E-Mail-Kommunikation",
-      "text": "Bitte beachten Sie, dass E-Mails unverschl\u00fcsselt \u00fcbertragen werden. Senden Sie daher keine vertraulichen oder sensiblen Informationen per E-Mail, da diese m\u00f6glicherweise von Dritten abgefangen werden k\u00f6nnen."
+      "text": "Die E-Mail-Kommunikation mit der Becker Innovation findet unverschl\u00fcsselt statt. Es kann somit nicht ausgeschlossen werden, dass gesendete Daten oder die Kontaktaufnahme mit der Unternehmung von Dritten eingesehen oder nachvollzogen werden k\u00f6nnen. Wir bitten Sie daher, von der \u00dcbermittlung von sensiblen, nicht \u00f6ffentlichen und vertraulichen Daten an die Unternehmung per E-Mail abzusehen."
     }
   },
   "footer": {
