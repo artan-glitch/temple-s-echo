@@ -2,10 +2,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import storyContentDE from "@/data/story-content-de";
+import storyContentEN from "@/data/story-content-en";
 
 const base = import.meta.env.BASE_URL;
 
-const sceneImages: Record<string, string | string[]> = {
+// Scene ID -> image path(s). Scene 1 has a split image; scene 21 (Bundeslade, new)
+// has no dedicated image yet; scene 22 (Destruction) reuses the old szene-21.jpg.
+const sceneImages: Record<string, string | string[] | undefined> = {
   s1: [`${base}images/scenes/1a.-szene.jpg`, `${base}images/scenes/1b.-szene.jpg`],
   s2: `${base}images/scenes/szene-2.jpg`,
   s3: `${base}images/scenes/szene-3.jpg`,
@@ -26,13 +30,13 @@ const sceneImages: Record<string, string | string[]> = {
   s18: `${base}images/scenes/szene-18.jpg`,
   s19: `${base}images/scenes/szene-19.jpg`,
   s20: `${base}images/scenes/szene-20.jpg`,
-  s21: `${base}images/scenes/szene-21.jpg`,
+  s21: undefined,
+  s22: `${base}images/scenes/szene-21.jpg`,
 };
 
-const sceneKeys = Array.from({ length: 21 }, (_, i) => `s${i + 1}`);
-
 const Blog = () => {
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
+  const content = i18n.language === "de" ? storyContentDE : storyContentEN;
 
   return (
     <div className="min-h-screen bg-background">
@@ -46,39 +50,34 @@ const Blog = () => {
           </Link>
           <p className="font-ui text-temple-gold uppercase tracking-[0.35em] text-xs mb-4">{t("blog.label")}</p>
           <h1 className="font-display text-3xl md:text-5xl font-bold text-temple-on-dark leading-tight mb-4">
-            {t("blog.title")}
+            {content.title}
           </h1>
-          <div className="font-display text-2xl md:text-3xl text-temple-gold mb-6">{t("blog.hebrew")}</div>
+          <div className="font-display text-2xl md:text-3xl text-temple-gold mb-6">{content.hebrew}</div>
           <div className="text-temple-gold/40 tracking-[0.3em] text-sm mb-6">&#10022; &#10022; &#10022;</div>
           <p className="font-body text-temple-on-dark/60 italic max-w-xl mx-auto">
-            {t("blog.subtitle")}
+            {content.subtitle}
           </p>
         </div>
       </header>
 
       {/* ── Scenes ── */}
       <main className="max-w-[860px] mx-auto px-6 pb-24">
-        {sceneKeys.map((key, i) => {
-          const s = `blog.scenes.${key}`;
-          const body = t(`${s}.body`, { returnObjects: true }) as string[];
-          const measurements = t(`${s}.measurements`, { returnObjects: true, defaultValue: "" });
-          const quote = t(`${s}.quote`, { defaultValue: "" });
-          const quoteCite = t(`${s}.quoteCite`, { defaultValue: "" });
-          const img = sceneImages[key];
+        {content.scenes.map((scene, i) => {
+          const img = sceneImages[scene.id];
 
           return (
-            <div key={key}>
-              <article className="mt-16" id={key}>
+            <div key={scene.id}>
+              <article className="mt-16" id={scene.id}>
                 {/* Scene header */}
                 <div className="flex flex-wrap items-baseline gap-4 mb-5 pb-3 border-b border-border">
                   <span className="font-ui text-[10px] tracking-[0.3em] text-temple-gold uppercase shrink-0">
-                    {t(`${s}.num`)}
+                    {scene.num}
                   </span>
                   <h2 className="font-display text-lg md:text-xl font-semibold text-temple-midnight leading-tight">
-                    {t(`${s}.title`)}
+                    {scene.title}
                   </h2>
                   <span className="font-display italic text-temple-gold text-sm md:text-base ml-auto whitespace-nowrap">
-                    {t(`${s}.subtitle`)}
+                    {scene.subtitle}
                   </span>
                 </div>
 
@@ -86,53 +85,25 @@ const Blog = () => {
                 {Array.isArray(img) ? (
                   <div className="flex gap-0 rounded overflow-hidden border border-temple-gold/20 mb-6 aspect-video">
                     {img.map((src, j) => (
-                      <img key={j} src={src} alt={t(`${s}.title`)} className="w-1/2 h-full object-cover" style={j > 0 ? { borderLeft: "2px solid rgba(201,168,76,0.3)" } : {}} />
+                      <img key={j} src={src} alt={scene.title} className="w-1/2 h-full object-cover" style={j > 0 ? { borderLeft: "2px solid rgba(201,168,76,0.3)" } : {}} />
                     ))}
                   </div>
                 ) : img ? (
                   <div className="rounded overflow-hidden border border-temple-gold/20 mb-6">
-                    <img src={img} alt={t(`${s}.title`)} className="w-full aspect-video object-cover" />
+                    <img src={img} alt={scene.title} className="w-full aspect-video object-cover" />
                   </div>
                 ) : null}
 
-                {/* Source tag */}
-                <div className="mb-4">
-                  <span className="inline-block font-ui text-xs font-semibold tracking-[0.12em] text-temple-gold bg-temple-gold/10 border border-temple-gold/30 rounded-sm px-3 py-1 uppercase">
-                    {t(`${s}.source`)}
-                  </span>
-                </div>
-
                 {/* Body */}
                 <div className="font-body text-foreground/80 leading-relaxed space-y-4">
-                  {Array.isArray(body) && body.map((p, j) => (
+                  {scene.body.map((p, j) => (
                     <p key={j}>{p}</p>
                   ))}
                 </div>
-
-                {/* Measurements */}
-                {Array.isArray(measurements) && measurements.length > 0 && (
-                  <div className="my-5 py-3 px-5 bg-temple-gold/[0.06] border-l-2 border-temple-gold text-sm text-temple-midnight/70 leading-loose">
-                    {measurements.map((m: string, j: number) => (
-                      <div key={j}>{m}</div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Pull quote */}
-                {quote && (
-                  <div className="my-5 py-5 px-6 border-t border-b border-border font-display italic text-temple-midnight/70 leading-relaxed">
-                    {quote}
-                    {quoteCite && (
-                      <cite className="block mt-2 text-[11px] font-ui not-italic tracking-[0.12em] text-temple-gold uppercase">
-                        {quoteCite}
-                      </cite>
-                    )}
-                  </div>
-                )}
               </article>
 
               {/* Divider */}
-              {i < sceneKeys.length - 1 && (
+              {i < content.scenes.length - 1 && (
                 <div className="flex items-center gap-4 mt-16 opacity-40">
                   <div className="flex-1 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
                   <span className="text-temple-gold text-sm">&#10022;</span>
@@ -143,11 +114,32 @@ const Blog = () => {
           );
         })}
 
+        {/* Sources */}
+        <div className="mt-20 pt-10 border-t border-border">
+          <h2 className="font-display text-2xl font-semibold text-temple-midnight mb-3">{content.sources.title}</h2>
+          <p className="font-body text-foreground/70 italic mb-8">{content.sources.intro}</p>
+          <div className="grid md:grid-cols-2 gap-8">
+            {content.sources.groups.map((group) => (
+              <div key={group.heading}>
+                <h3 className="font-ui text-xs font-semibold tracking-[0.16em] text-temple-gold uppercase mb-3">
+                  {group.heading}
+                </h3>
+                <ul className="font-body text-foreground/75 text-sm space-y-1">
+                  {group.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <p className="font-body text-foreground/60 italic text-sm mt-8">{content.sources.total}</p>
+        </div>
+
         {/* Closing */}
         <div className="mt-20 p-8 rounded border border-border text-center bg-temple-midnight">
           <div className="text-temple-gold text-2xl mb-4">&#10022;</div>
           <p className="font-display text-temple-on-dark italic text-lg leading-relaxed mb-4">
-            {t("blog.closing")} <em className="text-temple-gold">{t("blog.closingHebrew")}</em> — {t("blog.closingTranslation")}
+            {content.closing} <em className="text-temple-gold">{content.closingHebrew}</em> &mdash; {content.closingTranslation}
           </p>
           <div className="gold-divider w-16 mx-auto mt-6" />
         </div>
