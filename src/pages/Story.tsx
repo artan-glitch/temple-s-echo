@@ -76,9 +76,11 @@ const Story = () => {
                   <h2 className="font-display text-lg md:text-xl font-semibold text-temple-midnight leading-tight">
                     {scene.title}
                   </h2>
-                  <span className="font-display italic text-temple-gold text-sm md:text-base ml-auto whitespace-nowrap">
-                    {scene.subtitle}
-                  </span>
+                  {scene.subtitle && (
+                    <span className="font-display italic text-temple-gold text-sm md:text-base ml-auto whitespace-nowrap">
+                      {scene.subtitle}
+                    </span>
+                  )}
                 </div>
 
                 {/* Image */}
