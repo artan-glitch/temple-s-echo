@@ -34,7 +34,7 @@ const sceneImages: Record<string, string | string[] | undefined> = {
   s22: `${base}images/scenes/szene-21.jpg`,
 };
 
-const Blog = () => {
+const Story = () => {
   const { i18n, t } = useTranslation();
   const content = i18n.language === "de" ? storyContentDE : storyContentEN;
 
@@ -150,4 +150,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Story;
