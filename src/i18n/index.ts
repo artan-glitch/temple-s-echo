@@ -13,11 +13,22 @@ i18n
       de: { translation: de },
     },
     fallbackLng: "en",
+    supportedLngs: ["en", "de"],
     interpolation: { escapeValue: false },
     detection: {
       order: ["localStorage", "navigator"],
       caches: ["localStorage"],
     },
   });
+
+const syncHtmlLang = (lng: string) => {
+  const code = lng.startsWith("de") ? "de" : "en";
+  if (typeof document !== "undefined") {
+    document.documentElement.lang = code;
+  }
+};
+
+syncHtmlLang(i18n.language);
+i18n.on("languageChanged", syncHtmlLang);
 
 export default i18n;
