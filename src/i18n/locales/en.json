@@ -1,4 +1,10 @@
 {
+  "meta": {
+    "title": "Solomon's Temple — Documentary | Beit HaMikdash",
+    "description": "A documentary journey into Solomon's Temple — its architecture, sacred objects, its destruction, and the enduring Jewish hope for its restoration.",
+    "ogDescription": "From the gold of the First Temple to the light of the Third — a documentary on the Beit HaMikdash, its history, and its legacy.",
+    "siteName": "Solomon's Temple"
+  },
   "nav": {
     "home": "Home",
     "theStory": "The Story",

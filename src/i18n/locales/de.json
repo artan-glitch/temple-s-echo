@@ -1,4 +1,10 @@
 {
+  "meta": {
+    "title": "Salomons Tempel — Dokumentation | Beit HaMikdasch",
+    "description": "Eine dokumentarische Reise zum Tempel Salomons — seine Architektur, seine heiligen Gegenstände, seine Zerstörung und die bleibende jüdische Hoffnung auf seine Wiederherstellung.",
+    "ogDescription": "Vom Gold des Ersten Tempels zum Licht des Dritten — eine Dokumentation über das Beit HaMikdasch, seine Geschichte und sein Vermächtnis.",
+    "siteName": "Salomons Tempel"
+  },
   "nav": {
     "home": "Startseite",
     "theStory": "Die Geschichte",

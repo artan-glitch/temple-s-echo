@@ -10,8 +10,26 @@ import Impressum from "./pages/Impressum";
 import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import { useDocumentMeta } from "./hooks/useDocumentMeta";
 
 const queryClient = new QueryClient();
+
+const AppRoutes = () => {
+  useDocumentMeta();
+  return (
+    <>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
+  );
+};
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -19,15 +37,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/story" element={<Story />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/impressum" element={<Impressum />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <AppRoutes />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
