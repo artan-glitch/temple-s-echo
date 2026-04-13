@@ -1,12 +1,17 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import ReCAPTCHA from "react-google-recaptcha";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 
+const RECAPTCHA_SITE_KEY = "6Ld-AbUsAAAAALxPghzqfjc5TJwSohdd321NRSd8";
+
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
-  const { t } = useTranslation();
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const captchaRef = useRef<ReCAPTCHA>(null);
+  const { t, i18n } = useTranslation();
 
   return (
     <div className="min-h-screen bg-background">
@@ -39,8 +44,10 @@ const Contact = () => {
               className="space-y-6"
               onSubmit={async (e) => {
                 e.preventDefault();
+                if (!captchaToken) return;
                 const form = e.target as HTMLFormElement;
                 const formData = new FormData(form);
+                formData.append("g-recaptcha-response", captchaToken);
                 try {
                   const res = await fetch("https://api.web3forms.com/submit", {
                     method: "POST",
@@ -51,6 +58,8 @@ const Contact = () => {
                 } catch {
                   alert("Network error. Please try again.");
                 }
+                captchaRef.current?.reset();
+                setCaptchaToken(null);
               }}
             >
               <input type="hidden" name="access_key" value="7f7b1704-6022-45df-b3ed-9e0d5036106d" />
@@ -94,9 +103,20 @@ const Contact = () => {
                 />
               </div>
 
+              <div className="flex justify-center">
+                <ReCAPTCHA
+                  ref={captchaRef}
+                  sitekey={RECAPTCHA_SITE_KEY}
+                  onChange={(token) => setCaptchaToken(token)}
+                  onExpired={() => setCaptchaToken(null)}
+                  hl={i18n.language === "de" ? "de" : "en"}
+                />
+              </div>
+
               <button
                 type="submit"
-                className="w-full py-4 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold hover:opacity-90 transition-opacity"
+                disabled={!captchaToken}
+                className="w-full py-4 bg-gradient-to-r from-temple-gold to-temple-gold-light text-temple-midnight font-ui font-semibold uppercase tracking-widest text-sm rounded shadow-gold transition-opacity disabled:opacity-40 disabled:cursor-not-allowed hover:enabled:opacity-90"
               >
                 {t("contact.send")}
               </button>
