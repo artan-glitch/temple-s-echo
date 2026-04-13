@@ -47,14 +47,14 @@ const Contact = () => {
                 if (!captchaToken) return;
                 const form = e.target as HTMLFormElement;
                 const formData = new FormData(form);
-                formData.append("g-recaptcha-response", captchaToken);
                 try {
                   const res = await fetch("https://api.web3forms.com/submit", {
                     method: "POST",
                     body: formData,
                   });
-                  if (res.ok) setSubmitted(true);
-                  else alert("Something went wrong. Please try again.");
+                  const data = await res.json();
+                  if (data.success) setSubmitted(true);
+                  else alert(data.message || "Something went wrong. Please try again.");
                 } catch {
                   alert("Network error. Please try again.");
                 }
