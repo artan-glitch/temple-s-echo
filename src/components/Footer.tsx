@@ -9,9 +9,14 @@ const Footer = () => {
       <div className="container px-4">
         {/* Single row: Logo + Copyright + Legal links */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-          <Link to="/" className="flex items-center gap-2">
+          <a
+            href="https://beckerinnovation.ch/projekte/#solomon"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
             <img src={`${import.meta.env.BASE_URL}images/becker-logo-gold.svg`} alt="Becker Innovation" className="h-10 w-auto opacity-70 hover:opacity-100 transition-opacity" />
-          </Link>
+          </a>
           <p className="text-xs font-ui text-temple-on-dark/40">
             {t("footer.copyright", { year: new Date().getFullYear() })}
           </p>

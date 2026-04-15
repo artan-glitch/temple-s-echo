@@ -22,9 +22,14 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-temple-midnight/95 backdrop-blur-sm border-b border-temple-gold/20">
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
+        <a
+          href="https://beckerinnovation.ch/projekte/#solomon"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 group"
+        >
           <img src={`${import.meta.env.BASE_URL}images/becker-logo-gold.svg`} alt="Becker Innovation" className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
-        </Link>
+        </a>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8 font-ui">
